@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI CALCULATOR</string>
+    <string name="heading"><b>CHECK YOUR BMI</b></string>
+    <string name="bv"><i><b>BMI VALUE</b></i></string>
+    <string name="result"><b>BMI STATUS</b></string>
+</resources>

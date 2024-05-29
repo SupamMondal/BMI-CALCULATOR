@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llmain"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/ow"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heading"
+        android:layout_marginBottom="90dp"
+        android:textSize="30dp"
+        android:textColor="@color/uw">
+
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="text"
+        android:hint="Enter your Gender"
+        android:id="@+id/genderedit">
+
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="Enter your Age"
+        android:id="@+id/edtage">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="Enter your weight"
+        android:id="@+id/editweight">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="Enter your height in Ft."
+        android:id="@+id/editheightFt">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+        android:hint="Enter your height in In."
+        android:id="@+id/editheightIn">
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI CALCULATE"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF5722"
+        android:id="@+id/editbutton">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bv"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/h"
+        android:id="@+id/editbmivalue">
+
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textColor="#FFEB3B"
+        android:id="@+id/edittextview">
+    </TextView>
+</LinearLayout>
